@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: relative;
+    bottom: -9px;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 10px;
+    background-color: #4070F4;
+    text-align: center;
+    font-size: 12px;
+  }
+
+header {
+    text-align: center;
+    background-color: #4070F4;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4070F4;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.slide-container {
+    max-width: 1120px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-content {
+    text-align: center;
+    padding: 15px;
+}
+
+.card .button {
+    background-color: #4070F4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card .button:hover {
+    background-color: #265DF2;
+}
+
+form .form-control {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    form .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
+
+
+html ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: linear-gradient(160deg, #265DF2, #265DF2);
+    width: 10px;
+    border-radius: 5px;
+}
+
+html ::-webkit-scrollbar-thumb:hover {
+    background: #265DF2;
+    cursor: pointer;
+}
